@@ -23,21 +23,21 @@ ul {
 
 .topmenu>li>a {
    padding: 20px;
-   color: #767676;
+   color: coral;
    text-transform: uppercase;
    font-weight: bold;
-   letter-spacing: 1px;
+   letter-spacing: 3px;
    font-family: 'Exo 2', sans-serif;
 }
 
 .topmenu li a:hover {
-   color: #c0a97a;
+   color: #0f0a00;
 }
 
 .submenu li a {
    border-bottom: 1px solid #fff;
    font-size: 11px;
-   color: #484848;
+   color: coral;
    font-family: 'Kurale', serif;
 }
 
@@ -199,4 +199,9 @@ footer nav a:hover{
    margin-bottom: 10px;
 }
 
-    
+.center {
+   width: 200px; /* Ширина элемента в пикселах */
+   padding: 10px; /* Поля вокруг текста */
+   margin: auto; /* Выравниваем по центру */
+   background: #fc0; /* Цвет фона */
+  }    
